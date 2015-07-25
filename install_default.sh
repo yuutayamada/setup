@@ -30,6 +30,9 @@ fi
 source ${DIR}/install_ppa.sh
 my_add_ppa
 
+# power management package
+sudo add-apt-repository ppa:linrunner/tlp
+
 # locale configuration for Japanese
 # sudo apt-get install language-pack-ja && sudo dpkg-reconfigure locales && \
 #   sudo update-locale LANG=ja_JP.UTF-8
