@@ -1,5 +1,5 @@
 #!/bin/bash # -*- coding: utf-8; mode: shell-script; -*-
-PACKAGES="emacs-snapshot autoconf cairo-compmgr clipgrab"
+PACKAGES="autoconf cairo-compmgr clipgrab"
 add_ppa() {
   grep -h "$1" /etc/apt/sources.list.d/* > /dev/null 2>&1
   if [ $? -ne 0 ]; then
